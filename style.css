@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  margin: 1rem 0;
+}
+
+h3 {
+  font-weight: 400;
+  line-height: 26px;
+}
+
+p {
+  line-height: 22px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.sitelink-group {
+  margin-left: 1.5rem;
+}
+
+.sitelink {
+  padding-bottom: 1.25rem;
+}
+
+.faqs li {
+  padding: 1rem 0;
+  border-top: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.faqs li:first-child {
+  border-bottom: 0;
+}
+
+.faqs li:last-child {
+  border-top: 0;
+}
+
+ul {
+  margin-top: 1rem;
+}
+
+details > p {
+  padding: 1rem 0;
+}
+
+details > div > a > h3 {
+  padding: 1rem 0;
+}
+
+ul > li {
+  list-style: none;
+}
